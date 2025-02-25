@@ -1,0 +1,53 @@
+body {
+    font-family: Circular, Arial, Helvetica, sans-serif;
+    padding: 0px 6px;   
+}
+
+.auth-buttons > button {
+    all: unset;
+
+    /* our own styles */
+    border: 2px solid rgb(57, 130, 136);
+    padding: 9px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+#login-button {
+    background-color: rgb(57, 130, 136);
+    color: white;
+}
+
+#signup-button {
+    color: rgb(57, 130, 136);
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 30px;
+    margin-bottom: 65px;
+}
+
+.articles-container {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 14px 35px 8px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+li {
+    line-height: 1.4rem;
+}
+
+/* To use the the font asset: add font-family: Circular, Arial, Helvetica, sans-serif; to body as well*/
+@font-face {
+    font-family: Circular;
+    src: url("@font-face/860c3ec7bbc5da3e97233ccecafe512e.woff");
+}
